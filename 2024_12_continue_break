@@ -1,0 +1,26 @@
+shopping_list = ["apples", "bananas", "bread", "milk", "chips", "eggs"]
+for item in shopping_list:
+  if item == "chips":
+    continue
+  print (f"Don't forget to buy: {item}")
+
+for i in range(1, 6):
+  if i == 3:
+    break
+  print(i)
+
+for cock in range(1, 6):
+  print(cock)
+else:
+  print('Loop has ended')
+
+  #The else block will only be executed if the loop is not terminated early by a break statement.
+  # Ejemplo: 
+  # for i in range(1, 11):
+  # # if i == 5:
+  # # # break
+  # # print(i)
+  # else:
+  # # print("Loop has ended.")
+
+
